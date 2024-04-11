@@ -1,0 +1,42 @@
+.caja{
+    background-color:rgb(58, 114, 166);
+
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border;
+
+}
+.container{
+    width:800px;
+    height:100vh;
+    background-color: rgb(44, 59, 196);
+    margin: 50px;
+    padding:10px;
+
+    display:flex;
+    flex-wrap: wrap;
+
+
+
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.caja{
+    border:6px solid rgb(203, 43, 203);
+    width: 100px;
+    height: 100px;
+
+
+}
+#caja2 {
+    flex-grow: 0;
+
+}
+#caja3{
+    flex-grow: 0;
+}
+#caja4{
+    flex-grow: 0;
+}
